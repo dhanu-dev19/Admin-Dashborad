@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard HTML CSS</title>
+  <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--- DashBoard ----->
+  <div class="container">
+    <aside id="sidebar">
+      <input type="checkbox" id="toggler">
+      <label for="toggler" class="toggle-btn">
+        <i class="bx bx-grid-alt"></i>
+        <span>Dhanush</span>
+      </label>
+      <form action="#" class="search-bar">
+        <span class="search-icon">
+          <i class="bx bx-search" ></i>
+        </span>
+        <input type="text" class="search-query" placeholder="Search....">
+      </form>
+      <!-- Sidebar navigation begins-->
+       <ul class="sidebar-nav">
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-link">
+            <i class='bx bx-user' ></i>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-link">
+            <i class='bx bx-task' ></i>
+            <span>Task</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-link">
+            <i class='bx bx-user' ></i>
+            <span>Auth</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-link">
+            <i class='bx bx-task' ></i>
+            <span>Packages</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-link">
+            <i class='bx bx-bell' ></i>
+            <span>Notification</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-link">
+            <i class='bx bx-cog' ></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-link">
+            <i class='bx bx-package' ></i>
+            <span>Page</span>
+          </a>
+        </li>
+       </ul>
+
+       <!-- Sidebar navigation ends --->
+        <div class="sidebar-footer">
+          <a href="#" class="sidebar-link">
+            <i class='bx bx-exit'></i>
+            <span>Logout</span>
+          </a>
+        </div>
+    </aside>
+    <div class="main">
+      <div class="dashboard-navbar">
+        <form action="#">
+          <div class="nav-search">
+            <input type="text" class="search-query1" placeholder="Search...">
+            <button class="btn" type="button">Search</button>
+          </div>
+        </form>
+        <div class="form-content">
+          <ul class="main-nav">
+            <li class="user-link">
+              <a href="#">
+                <img src="account.png" alt="Profile" class="avatar">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
+<!--- DashBoard End--->
+
+
+
+</body>
+</html>
